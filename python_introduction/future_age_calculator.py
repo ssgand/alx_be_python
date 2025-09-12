@@ -1,4 +1,4 @@
-userAge = input('How old are you ? ')
+userAge = input('How old are you? ')
 
 userAgeIn2050 = int(userAge) + 27
 
