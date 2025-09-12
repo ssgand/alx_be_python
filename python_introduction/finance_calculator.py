@@ -1,9 +1,9 @@
-income = input('Enter your monthly income: ')
-expenses = input('Enter your total monthly expenses: ')
+monthly_income = input('Enter your monthly income: ')
+monthly_expenses = input('Enter your total monthly expenses: ')
 
-savings = int(income) - int(expenses)
+monthly_savings = float(monthly_income) - float(monthly_expenses)
 
-projectedSavings = savings * 12 + (savings * 12 * 0.05)
+projected_savings = monthly_savings * 12 + (monthly_savings * 12 * 0.05)
 
-print('Your monthly savings are $' + str(savings) + '.')
-print('Projected savings after one year, with interest, is: $' + str(projectedSavings) + '.')
+print('Your monthly savings are $' + str(monthly_savings) + '.')
+print('Projected savings after one year, with interest, is: $' + str(projected_savings) + '.')
