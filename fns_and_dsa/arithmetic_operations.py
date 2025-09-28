@@ -11,5 +11,5 @@ def perform_operation(num1, num2, operation):
 			if (num2 == 0):
 				print("num2 must be different from 0")
 				return
-			else:
+			elif (num2 != 0):
 				return num1 / num2
