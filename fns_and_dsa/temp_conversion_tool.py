@@ -13,7 +13,7 @@ def userPrompt():
 		value = float(value)
 	except ValueError:
 		return print("Invalid temperature. Please enter a numeric value.")
-	temp = input("Is this temperature in Celsius or Fahrenheit ? (C/F):")
+	temp = input("Is this temperature in Celsius or Fahrenheit? (C/F):")
 	if temp.lower() != "c" and temp.lower() != "f":
 		print("Temperature must be in celsius or fahrenheit (c or f)")
 		return
